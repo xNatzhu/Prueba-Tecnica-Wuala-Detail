@@ -3,9 +3,9 @@ import ImageGallery from "../components/Detail/ImageGallery";
 export default function DetailProduct() {
   return (
     <>
-      <section className="py-10 font-poppins">
+      <section className=" pt-10 font-poppins">
         <div className="max-w-6xl px-4 mx-auto">
-          <div className="flex flex-wrap mb-24 -mx-4">
+          <div className="flex flex-wrap mb-7 -mx-4">
             <ImageGallery />
             <div className="w-full px-4 md:w-1/2">
               <div className="lg:pl-20">
@@ -20,6 +20,9 @@ export default function DetailProduct() {
                     <span> €3,94</span>
                     <span className="ml-3 text-base font-normal text-gray-500 line-through dark:text-gray-400">
                       5,00
+                    </span>
+                    <span className="ml-3 font-normal text-[13px] text-gray-500  dark:text-gray-400">
+                      Impuestos Incluidos
                     </span>
                   </p>
                 </div>
@@ -40,7 +43,18 @@ export default function DetailProduct() {
                     intervenciones quirúrgicas —o simplemente porque Immunio
                     sabe tan delicioso.
                   </p>
+                  <div class="flex items-center mt-6">
+                    <h2 class="w-[85px] text-base text-gray-200 font-bold dark:text-gray-400">
+                      Formato:
+                    </h2>
+                    <div class="flex flex-wrap -mx-2 -mb-2">
+                      <button class="py-1 mb-2 mr-1 border w-[60px] hover:border-blue-400 dark:border-gray-400 hover:text-blue-600 dark:hover:border-gray-300 dark:text-gray-400">
+                        250 ml
+                      </button>
+                    </div>
+                  </div>
                 </div>
+
                 <div className="mb-6 "></div>
                 <div className="flex flex-wrap items-center mb-6">
                   <div className="mb-4 mr-4 lg:mb-0">
@@ -78,7 +92,7 @@ export default function DetailProduct() {
                   </div>
                   <a
                     href="#"
-                    className="w-full px-4 py-3 text-center bg-[#d3be39]   text-gray-100 lg:w-1/2 rounded-xl"
+                    className="w-full px-4 py-3 text-center bg-[#dbbb49]   text-gray-100 lg:w-1/2 rounded-xl"
                   >
                     Añadir al carrito
                   </a>
@@ -99,11 +113,11 @@ export default function DetailProduct() {
                 <li className="me-2">
                   <a
                     href="#"
-                    className="inline-flex items-center justify-center p-4 text-blue-600 border-b-2 border-blue-600 rounded-t-lg active dark:text-blue-500 dark:border-blue-500 group"
+                    className="inline-flex items-center justify-center p-4 text-[#dbbb49] border-b-2 border-[#dbbb49] rounded-t-lg active dark:text-[#dbbb49] dark:border-[#dbbb49] group"
                     aria-current="page"
                   >
                     <svg
-                      className="w-4 h-4 me-2 text-blue-600 dark:text-blue-500"
+                      className="w-4 h-4 me-2 text-[#dbbb49]"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -111,7 +125,7 @@ export default function DetailProduct() {
                     >
                       <path d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z" />
                     </svg>
-                    Descripcion
+                    Descripción
                   </a>
                 </li>
                 <li className="me-2">

@@ -6,6 +6,18 @@
 html{
     background-color: #161616;
 }
+
+/* setting: scroll*/
+body::-webkit-scrollbar{
+    background: #161616;
+    width: 4px;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: #dbbb49;
+}
+
 @media (max-width:1100px){
     .container{
         width: 100%;

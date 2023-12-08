@@ -4,13 +4,13 @@
 }
 
 html{
-    background-color: #161616;
+    background-color: #f5f5fa;
 }
 
 /* setting: scroll*/
 body::-webkit-scrollbar{
-    background: #161616;
-    width: 4px;
+    background: #f5f5fa;
+    width: 6px;
 }
 
 body::-webkit-scrollbar-thumb{

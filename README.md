@@ -11,12 +11,12 @@ Para instalar la aplicación, sigue estos pasos:
 1. Clona este repositorio en tu máquina local:
 
 ```
-git clone https://github.com/xNatzhu/Prueba-Tecnica-Wuala
+git clone https://github.com/xNatzhu/Prueba-Tecnica-Wuala-Detail
 ```
 
 2. Acceder al directorio del proyecto:
 ```
-cd Prueba-Tecnica-Wuala
+cd Prueba-Tecnica-Wuala-Detail
 ```
 3. Luego proceda a instalar las dependencias:
 ```
